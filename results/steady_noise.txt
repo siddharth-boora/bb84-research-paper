@@ -1,0 +1,27 @@
+(a) Simulated vs exact P(evade), 20,000 rounds each, check = half of sifted bits
+    n     e     f     sim   exact
+ 1024  0.02  0.30  0.8397  0.8405
+ 1024  0.05  0.25  0.5896  0.5874
+ 1024  0.08  0.14  0.5264  0.5231
+ 1024  0.10  0.05  0.5123  0.5109
+ 4096  0.02  0.30  0.9727  0.9744
+ 4096  0.05  0.25  0.6530  0.6550
+ 4096  0.08  0.14  0.5311  0.5290
+ 4096  0.10  0.05  0.5038  0.5045
+largest gap = 1.6 standard errors
+
+(b) Intercept fraction Eve can use, by required evasion probability
+e=0.02 n= 1024  f_max=0.375  P50=0.377  P90=0.279  P99=0.210  P(evade|f_max)=0.511  false alarm=0.0000
+e=0.02 n= 2048  f_max=0.375  P50=0.376  P90=0.306  P99=0.253  P(evade|f_max)=0.507  false alarm=0.0000
+e=0.02 n= 4096  f_max=0.375  P50=0.375  P90=0.325  P99=0.286  P(evade|f_max)=0.505  false alarm=0.0000
+e=0.05 n= 1024  f_max=0.267  P50=0.269  P90=0.165  P99=0.091  P(evade|f_max)=0.511  false alarm=0.0001
+e=0.05 n= 2048  f_max=0.267  P50=0.268  P90=0.193  P99=0.137  P(evade|f_max)=0.507  false alarm=0.0000
+e=0.05 n= 4096  f_max=0.267  P50=0.267  P90=0.213  P99=0.172  P(evade|f_max)=0.505  false alarm=0.0000
+e=0.08 n= 1024  f_max=0.143  P50=0.145  P90=0.034  P99=0.000  P(evade|f_max)=0.511  false alarm=0.0438
+e=0.08 n= 2048  f_max=0.143  P50=0.144  P90=0.063  P99=0.004  P(evade|f_max)=0.507  false alarm=0.0083
+e=0.08 n= 4096  f_max=0.143  P50=0.143  P90=0.086  P99=0.042  P(evade|f_max)=0.505  false alarm=0.0004
+e=0.10 n= 1024  f_max=0.050  P50=0.053  P90=0.000  P99=0.000  P(evade|f_max)=0.511  false alarm=0.2901
+e=0.10 n= 2048  f_max=0.050  P50=0.051  P90=0.000  P99=0.000  P(evade|f_max)=0.507  false alarm=0.2236
+e=0.10 n= 4096  f_max=0.050  P50=0.051  P90=0.000  P99=0.000  P(evade|f_max)=0.505  false alarm=0.1439
+
+saved step2_evasion_steady.png, step2_thresholds.csv

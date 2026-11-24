@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*Notes.bib
+paper/full/*.aux
+paper/full/*.log
+paper/full/*.out
+paper/full/*Notes.bib
