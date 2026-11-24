@@ -48,4 +48,3 @@ Run the commands from the repository's top folder.
 ## Credits
 
 The drifting-noise model comes from Mordarski et al., arXiv:2610.01792 (2026).
-# bb84-research-paper
