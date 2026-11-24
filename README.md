@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python code/validate.py > results/validation.txt
 python code/steady_noise.py > results/steady_noise.txt
 python code/drift_vs_steady.py
-python code/crossover.py        # about 25 minutes
+python code/crossover.py        
 python code/make_figures.py
 ```
 
