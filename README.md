@@ -1,6 +1,6 @@
 # Does Drifting Channel Noise Help an Eavesdropper Hide in the BB84 Protocol?
 
-Code and results for my paper: **[paper/paper.pdf](paper/paper.pdf)**
+Research Paper: **[paper/paper.pdf](paper/paper.pdf)**
 
 ## The question
 
