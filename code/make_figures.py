@@ -57,7 +57,7 @@ if os.path.exists("results/crossover_runs.csv"):
         ax.fill_between(mu, s["mean"] - half, s["mean"] + half, color=COL[n], alpha=0.15, lw=0)
     ax.axhline(0, color="#555555", lw=1)
     ax.text(0.02, 0.96, "above 0: drift helps Eve", transform=ax.transAxes, va="top", fontsize=9, color="#555555")
-    ax.text(0.98, 0.04, "below 0: drift hurts Eve", transform=ax.transAxes, ha="right", fontsize=9, color="#555555")
+    ax.text(0.98, 0.04, "below 0: drift harms Eve", transform=ax.transAxes, ha="right", fontsize=9, color="#555555")
     ax.set_xlabel("Average channel noise (%)"); ax.set_ylabel("Eve's information gain with drift\nminus gain with steady noise (% points)")
     ax.legend(frameon=False, fontsize=9, loc="lower right", bbox_to_anchor=(1, 0.08)); tidy(ax)
     fig.tight_layout(); fig.savefig("figures/fig4.png", dpi=200); plt.close(fig)
